@@ -1,0 +1,63 @@
+
+
+.main{
+    margin-left: 10px;
+}
+
+.img1{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+/* .text{
+    text-align: center;
+} */
+
+.image { 
+    /* position: relative;  */
+    /* width: 100%;  */
+    margin-right: 0%;
+ }
+
+ span.col{
+     color: red;
+ }
+
+ .card-horizontal {
+    display: flex;
+    /* flex: 1 1 auto; */
+}
+
+/* .editing{
+    text-align: center;
+} */
+
+.editors{
+    display: grid;
+}
+/* .first {
+     width: 20%;
+    display: inline-block;
+    
+}
+
+.second {
+    width: 60%;
+    display: inline-block;
+    
+}
+
+.third {
+    width: 20%;
+    display: inline-block;
+    
+} 
+
+@media screen and (max-width: 400px) {
+
+    .first,
+    .second,
+    .third {
+        width: 70%;
+    }
+}  */

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.marqbody{
+    font-family: 'Montserrat',sans-serif;
+     /* background-color: #111;
+    color: #eee;   */
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.marquee{
+    width: 80vw;
+    /* height: 20vh; */
+    overflow: hidden;
+    margin-right: 10px;
+} 
+.marquee-content{
+    display: flex;
+    animation: scrolling 30s linear infinite;
+}
+.marquee-content div{
+    width: 35vw;
+    flex-shrink: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    white-space: inherit; 
+    color:black;
+    /* background-color: white; */
+} 
+.marquee-content:hover{
+    animation-play-state: paused;
+}
+.card1{
+    background-color: white;
+    /* border: 2px; */
+    width: 500px;
+}
+@keyframes scrolling{
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-190vw);}
+}
+
+.button {
+    background-color: #da3d16; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+  

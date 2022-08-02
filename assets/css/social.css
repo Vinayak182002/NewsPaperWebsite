@@ -1,0 +1,96 @@
+.socialMedia
+{
+  display: flex;
+  justify-content: center;
+  transition: 0.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.sci
+{
+  position: relative;
+  display: flex;
+}
+.sci li 
+{
+  list-style:none;
+}
+
+.sci li::before 
+{
+  content: attr(data-text);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,calc(-50% + 80px));
+  font-size: 3vw;
+  pointer-events: none;
+  font-weight: 700;
+  transition: 0.5%;
+  opacity: 0;
+}
+
+.sci li:hover:before 
+{
+  opacity: 0.1;
+  transform: translate(-50%,calc(-50% + 80px));
+}
+.sci li a{
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 1.5em;
+  perspective: 500px;
+  box-shadow: 0 25px 35px rgba(0,0,0,0.1);
+  transition: background 0.25%;
+}
+
+
+.sci li a:hover.facebook
+{
+    background: #1877f2 ;
+}
+
+.sci li a:hover.youtube
+{
+    background: #ff0000 ;
+}
+
+.sci li a:hover.twitter
+{
+    background: #0099ff ;
+}
+
+.sci li a:hover.instagram
+{
+    background: #e4405f ;
+}
+
+.sci li a .fa{ 
+  transition: 0.25%;
+  pointer-events: none;
+}
+
+.sci li a:hover{
+  color: white;
+}
+
+
+
+@media(max-width: 568px) {
+  
+  .fa {
+      width: 70%;
+  }
+}

@@ -1,0 +1,43 @@
+.navbar{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    position: fixed;
+}
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fff;
+    /* font-size: large;
+    font-family: serif; */
+}
+a:hover{
+    color: #d9d9d9;
+    background-color: grey;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+
+
+
+
